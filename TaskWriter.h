@@ -8,6 +8,7 @@ struct Task
     int id;
     std::string title;
     std::string createdAt;
+    double co_time{0.0};
 };
 
 class TaskWriter
